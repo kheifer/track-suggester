@@ -25,7 +25,7 @@ _In case of any issues please contact https://github.com/kheifer/ ._
 
 
 ## Technologies Used
-_This portfolio was built using Atom while incorporating Bootstrap, JavaScript, JQuery, Bootstrap and basic HTML and CSS._
+_This portfolio was built using Atom while incorporating Bootstrap, JavaScript, JQuery, and basic HTML and CSS._
 
 _
 
@@ -33,4 +33,4 @@ _
 
 _This software is licesned under the MIT License_
 
-Copyright (c) 2017 **Kheifer Fuller*
+Copyright (c) 2017 Kheifer Fuller
