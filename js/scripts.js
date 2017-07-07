@@ -1,9 +1,16 @@
 $(document).ready(function(){
-  $("#main").click(function(){
+  $("#java").hide();
+  $("#c-sharp").hide();
+  $("#php").hide();
+  $("#ruby").hide();
+  $("#css").hide();
+
+  $("#main-butn").click(function(){
     $("#quiz").fadeIn(200);
     $("#main").hide();
-    $(".results").hide();
     $("#sidebar").hide();
+
+
   });
 
 
@@ -15,46 +22,53 @@ $(document).ready(function(){
   var question4 =$("input:radio[name=quest4]:checked").val();
   var question5 =$("input:radio[name=quest5]:checked").val();
 
+  $(".username").append(userName);
 
 
 
 
-  $("#quizclick").click(function(){
+  $("#form").submit(function(){
+    if (question2 === "established") {
+      if (question3 === "interesting") {
+        //Java
+        $("#quiz").fadeOut(200);
+        $("#java").show( "slide", {direction: "right"}, 200);
+      } else {
+        //C#
+        $("#quiz").fadeOut(200);
+        $("#c-sharp").show( "slide", {direction: "right"}, 200);
 
-  if (question2 === "established") {
-    if (question3 === "interesting") {
-      //Java
-      $("#java").delay(300).show( "slide", {direction: "right"}, 200);
+      }
+
+    } else if(question2 === "startup") {
+      if (question3 === "interesting") {
+        //RUBY
+        $("#quiz").fadeOut(200);
+        $("#ruby").show( "slide", {direction: "right"}, 200);
+      } else{
+        //PHP
+        $("#quiz").fadeOut(200);
+        $("#php").show( "slide", {direction: "right"}, 200);
+      }
     } else {
-      //C#
-      $("#c-sharp").delay(300).show( "slide", {direction: "right"}, 200);
-
+      if (question3 === "interesting") {
+        //RUBY
+        $("#quiz").fadeOut(200);
+        $("#ruby").show( "slide", {direction: "right"}, 200);
+      } else {
+        //CSS
+        $("#quiz").fadeOut(200);
+        $("#css").show( "slide", {direction: "right"}, 200);
+      }
     }
 
-  } else if(question2 === "startup") {
-    if (question3 === "interesting") {
-      //RUBY
-      $("#java").delay(300).show( "slide", {direction: "right"}, 200);
-    } else{
-      //PHP
-      $("#php").delay(300).show( "slide", {direction: "right"}, 200);
-    }
-  } else {
-    if (question3 === "interesting") {
-      //RUBY
-      $("#ruby").delay(300).show( "slide", {direction: "right"}, 200);
-    } else {
-      //CSS
-      $("#css").delay(300).show( "slide", {direction: "right"}, 200);
-    }
-  }
 });
 
 
 
 
-
   $(".username").append(userName);
+
    event.preventDefault();
 
 });

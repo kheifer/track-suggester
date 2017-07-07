@@ -31,6 +31,9 @@ body{
 }
 
 /*RESULTS*/
-.results{
-  display: none;
+#logo{
+  margin: 1em auto 1.5em;
+  display: inline;
+  max-width: 10%;
+
 }
