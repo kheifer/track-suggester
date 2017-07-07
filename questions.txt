@@ -1,9 +1,10 @@
 
 1)Small company vs Large
-What style of company would be the best bet for you?
+What style of company would be the best fit for you?
 >a large well established company
 >A startup with room to grow
 >A digital agency
+
 
 2)Aesthetics vs Functionality
 What do you find most interesting about programming?
