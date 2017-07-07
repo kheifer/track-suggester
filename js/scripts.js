@@ -61,6 +61,11 @@ $(document).ready(function(){
         $("#css").show( "slide", {direction: "right"}, 200);
       }
     }
+    $("#java").hide();
+    $("#c-sharp").hide();
+    $("#php").hide();
+    $("#ruby").hide();
+    $("#css").hide();
 
 });
 
