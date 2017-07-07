@@ -9,30 +9,32 @@
     <title>Epicodus Track Suggester</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       <!--INTRODUCTION-->
-      <div class="jumbotron">
+      <div class=" container clearfix" id="main">
         <h2>Epicodus Track Suggester</h2>
-        <p>Epicodus has consistently been recognized as one of the top vocational bootcamps for aspiring developers in America, They offer multiple programs in numerous languages the most beneficial of which are their educational tracks. Although similar, each track is fairly unique in it's execution. It can be rather overwhelming to navigate.<p>
-          <p>Currently each track consists of:</p>
-          <ul>
-            <li>An Intro to Programming course</li>
-            <li>An intermediate JavaScript course</li>
-            <li>An infield internship</li>
-            <li>And two 5 week deep-dive of one of the following pairs </li>
-            <li>
-              <ol>
-                <li>Ruby and Rails</li>
-                <li>PHP and Drupal</li>
-                <li>Java and Android</li>
-                <li>CSS and Design</li>
-                <li>C# and .NET</li>
-              </ol>
-            </li>
-          </ul>
+        <img class="logo1" src="img/epilogo.png" alt="epicodus">
+        <p>Epicodus has consistently been recognized as one of the top vocational bootcamps for aspiring developers in America, They offer multiple programs in numerous languages the most beneficial of which are their educational tracks. Although similar, each track is fairly unique in it's execution. It can be rather overwhelming to navigate.</p>
+        <p>Currently each track consists of:</p>
+        <ul>
+          <li>An Intro to Programming course</li>
+          <li>An intermediate JavaScript course</li>
+          <li>An infield internship</li>
+          <li>And two 5 week deep-dive of one of the following pairs </li>
+          <li>
+            <ol>
+              <li>Ruby and Rails</li>
+              <li>PHP and Drupal</li>
+              <li>Java and Android</li>
+              <li>CSS and Design</li>
+              <li>C# and .NET</li>
+            </ol>
+          </li>
+        </ul>
+        <button type="submit" class="bd-masthead btn button-primary" id="main-butn">Click Here to find out more</button>
       </div>
       <!--QUIZ-->
-      <div class="">
+      <div class="container-fluid jumbotron" id="quiz">
         <form id="track-sug">
           <label for="quest1">Name</label>
           <input type="text" id="name" class="form-control" placeholder="Enter Full Name" required>
@@ -42,19 +44,19 @@
             <h2>What style of company would be the best fit for you?</h2>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest2" id="question2a" value="option1">
+                <input class="form-check-input" type="radio" name="quest2" id="question2a" value="option1" required>
                 A large well established company
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest2" id="question2b" value="option2">
+                <input class="form-check-input" type="radio" name="quest2" id="question2b" value="option2" required>
                 A startup with room to grow
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest2" id="question2c" value="option2">
+                <input class="form-check-input" type="radio" name="quest2" id="question2c" value="option2" required>
                 A digital agency with established clients
               </label>
             </div>
@@ -63,13 +65,13 @@
             <div class="form-check">
               <h2>What do you find most interesting about programming?</h2>
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest3" id="question3a" value="option1">
+                <input class="form-check-input" type="radio" name="quest3" id="question3a" value="option1" required>
                 Being able to build something interesting
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest3" id="question3b" value="option2">
+                <input class="form-check-input" type="radio" name="quest3" id="question3b" value="option2" required>
                 Being able to build something functional
               </label>
             </div>
@@ -78,19 +80,19 @@
             <h2>Which are you more interested in?</h2>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest4" id="question4a" value="option1">
+                <input class="form-check-input" type="radio" name="quest4" id="question4a" value="option1" required>
                 Software Design
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest4" id="question4b" value="option2">
+                <input class="form-check-input" type="radio" name="quest4" id="question4b" value="option2" required>
                 Website Design
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest4" id="question4c" value="option2">
+                <input class="form-check-input" type="radio" name="quest4" id="question4c" value="option2" required>
                 Mobile Applications
               </label>
             </div>
@@ -99,19 +101,19 @@
             <h2>Which is most important to you?</h2>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest5" id="question5a" value="option1">
+                <input class="form-check-input" type="radio" name="quest5" id="question5a" value="option1" required>
                 Finding a job as soon as possible.
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest5" id="question5b" value="option2">
+                <input class="form-check-input" type="radio" name="quest5" id="question5b" value="option2" required>
                 Being happy in your next job
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="quest5" id="question5c" value="option2">
+                <input class="form-check-input" type="radio" name="quest5" id="question5c" value="option2" required>
                 Being challeneged in your next endeavor
               </label>
             </div>

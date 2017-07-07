@@ -1,0 +1,21 @@
+/*HEADER*/
+#main, #main-btn {
+  margin-top: 1.25em;
+  padding-top: 1.2em;
+  padding-bottom: 1.5em;
+  margin-bottom: 1em;
+}
+.clearfix {
+   overflow: auto;
+}
+#main-butn{
+  float: right;
+  color: blue;
+  border-color: color: lightblue;
+}
+/*QUIZ*/
+#quiz{
+  display: none;
+}
+
+/*RESULTS*/
