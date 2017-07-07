@@ -9,11 +9,13 @@
     <title>Epicodus Track Suggester</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="main-area">
       <!--INTRODUCTION-->
-      <div class=" container clearfix" id="main">
+      <div class="col-md-4" id="sidebar" >
+        <img class="logo" src="img/epilogo.png" alt="epicodus">
+      </div>
+      <div class=" container clearfix col-md-8" id="main">
         <h2>Epicodus Track Suggester</h2>
-        <img class="logo1" src="img/epilogo.png" alt="epicodus">
         <p>Epicodus has consistently been recognized as one of the top vocational bootcamps for aspiring developers in America, They offer multiple programs in numerous languages the most beneficial of which are their educational tracks. Although similar, each track is fairly unique in it's execution. It can be rather overwhelming to navigate.</p>
         <p>Currently each track consists of:</p>
         <ul>
@@ -31,10 +33,10 @@
             </ol>
           </li>
         </ul>
-        <button type="submit" class="bd-masthead btn button-primary" id="main-butn">Click Here to find out more</button>
+        <button type="submit" class="bd-masthead btn btn-primary" id="main-butn">Click Here to find out more</button>
       </div>
       <!--QUIZ-->
-      <div class="container-fluid jumbotron" id="quiz">
+      <div class="container-fluid" id="quiz">
         <form id="track-sug">
           <label for="quest1">Name</label>
           <input type="text" id="name" class="form-control" placeholder="Enter Full Name" required>
@@ -125,10 +127,63 @@
               <input id="color" class="form-control" type="color">
             </div>
           </div>
-          <button type="submit" class="btn">Click Here to find out more</button>
+          <button type="submit" class="btn btn-primary">Click Here to take the test</button>
         </form>
       </div>
       <!-- Results -->
+      <div class="results">
+        <div id="Ruby">
+          <div class="container">
+            <div class="jumbotron">
+              <h1>Ruby and Rails Track</h1>
+              <p>Ruby and Rails are generally used to make web applications. There are a lot of new and exciting companies who are always looking for Ruby/Rails developers.
+              <a href="http://www.epicodus.com/ruby"><img src="img/ruby.png" alt="Ruby" class="img-responsive logo"></a>
+              <a href="http://www.epicodus.com/rails"><img src="img/drupal.png" alt="Rails" class="img-responsive logo"></a></p>
+            </div>
+          </div>
+        </div>
+        <div id="php">
+          <div class="container">
+            <div class="jumbotron">
+              <h1>PHP and Drupal track</h1>
+              <p>PHP is used primarily for web development, especially for content-heavy websites. It's most commonly used with content management systems(CMSs) like WordPress, Drupal, and Joomla.
+              <a href="http://www.epicodus.com/php"><img src="img/php.png" alt="PHP" class="img-responsive logo"></a>
+              <a href="http://www.epicodus.com/drupal"><img src="img/drupal.png" alt="Drupal "class="img-responsive logo"></a></p>
+            </div>
+          </div>
+        </div>
+        <div id="java">
+          <div class="container">
+            <div class="jumbotron">
+              <h1>Java and Android Track</h1>
+              <p>Android is used to design a lot of products from phone apps to televisions. There are numberous companies both lare and small where an android developer would fit right in.
+              <a href="http://www.epicodus.com/java"><img src="img/java.png" alt="Java" class="img-responsive logo"></a>
+              <a href="http://www.epicodus.com/android"><img src="img/android.png" alt="Android" class="img-responsive logo"></a></p>
+            </div>
+          </div>
+        </div>
+        <div id="css">
+          <div class="container">
+            <div class="jumbotron">
+              <h1>CSS and Design Track</h1>
+              <p>CSS is the most commonly used programs to design and shape the look of webpages.
+              <a href="http://www.epicodus.com/css"><img src="img/css.png" alt="CSS" class="img-responsive logo"></a>
+              <a href="http://www.epicodus.com/design"><img src="img/design.png" alt="Design" class="img-responsive logo"></a></p>
+            </div>
+          </div>
+        </div>
+        <div id="c-sharp">
+          <div class="container">
+            <div class="jumbotron">
+              <h1>C# and .NET Track</h1>
+              <p>C# and .NET are typically used by government agencies, and companies serving enterprise and government clients. They are primarily used to create database applications.
+              <a href="http://www.epicodus.com/c-sharp"><img src="img/c-sharp.png" alt="C#" class="img-responsive logo"></a>
+              <a href="http://www.epicodus.com/net"><img src="img/net.png" alt=".NET" class="img-responsive logo"></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>

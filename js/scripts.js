@@ -2,6 +2,7 @@ $(document).ready(function(){
   $("#main").click(function(){
     $("#quiz").fadeIn(200);
     $("#main").hide();
+    $("#sidebar").hide();
 });
 
 

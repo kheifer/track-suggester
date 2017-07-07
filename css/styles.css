@@ -10,8 +10,20 @@
 }
 #main-butn{
   float: right;
-  color: blue;
-  border-color: color: lightblue;
+
+}
+#sidebar{
+  float: left;
+  margin-top: 1.25em;
+  padding-top: 1.2em;
+  padding-bottom: 1.5em;
+  margin-bottom: 1em;
+}
+body{
+  background-color: #00b3b4;
+}
+#main-area{
+  background-color: white;
 }
 /*QUIZ*/
 #quiz{
@@ -19,3 +31,6 @@
 }
 
 /*RESULTS*/
+.results{
+  display: none;
+}
