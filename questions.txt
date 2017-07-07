@@ -1,0 +1,28 @@
+
+1)Small company vs Large
+What style of company would be the best bet for you?
+>a large well established company
+>A startup with room to grow
+>A digital agency
+
+2)Aesthetics vs Functionality
+What do you find most interesting about programming?
+>Being able to build something interesting
+>Being able to build something functional
+
+3)Websites vs Mobile Applications
+Which are you more interested in?
+>Software Design
+>Website Design
+>Mobile Applications
+
+4)Favorite Color?
+>Just insert a color picker for fun
+
+5)What's your name?
+>simple input box to store name;
+
+6)Which is most important to you?
+>Finding a job as soon as possible
+>Being happy in your next job
+>Being challenged in your next endeavor
