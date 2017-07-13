@@ -10,7 +10,6 @@
 }
 #main-butn{
   float: right;
-
 }
 #sidebar{
   float: left;
@@ -33,7 +32,10 @@ body{
 /*RESULTS*/
 #logo{
   margin: 1em auto 1.5em;
-  display: inline;
+  display: inline-block;
   max-width: 10%;
+}
 
+#java, #c-sharp, #php, #ruby, #css{
+  display: none;
 }
