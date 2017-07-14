@@ -13,7 +13,6 @@ $(document).ready(function() {
         $("#quiz").fadeOut();
         $("#main").hide();
         $("#sidebar").hide();
-        alert("Why isn't this working?");
         $("#java").show();
       } else {
         $("#quiz").fadeOut();
@@ -27,7 +26,6 @@ $(document).ready(function() {
         $("#main").hide();
         $("#sidebar").hide();
         $("#ruby").show();
-        alert("Why isn't this working?");
       } else {
         $("#quiz").fadeOut();
         $("#main").hide();
@@ -53,7 +51,4 @@ $(document).ready(function() {
     $("#main").hide();
     $("#sidebar").hide();
   });
-
-
-
 });
